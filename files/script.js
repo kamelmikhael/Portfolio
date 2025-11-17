@@ -1097,7 +1097,7 @@ class ProjectsCarouselManager
     constructor()
     {
         this.currentIndex = 0;
-        this.totalProjects = 4;
+        this.totalProjects = 7;
         this.track = document.getElementById('projects-track');
         this.prevButton = document.getElementById('prev-project');
         this.nextButton = document.getElementById('next-project');
