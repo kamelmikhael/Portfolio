@@ -35,7 +35,10 @@ class ThemeManager
 
     init()
     {
+        localStorage.setItem(CONFIG.THEME_STORAGE_KEY, 'light');
         const savedTheme = localStorage.getItem(CONFIG.THEME_STORAGE_KEY);
+
+        elements.html.classList.add('light');
 
         if (savedTheme === 'light')
         {
